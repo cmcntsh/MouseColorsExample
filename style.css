@@ -1,0 +1,26 @@
+:root {
+    --color-begin: black;
+    --color-hover: lightblue;
+    --color-button-down: red;
+    --color-button-up: yellow;
+    --color-double-click: green;
+    --color-scroll: orange;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    /* align-items: center;
+    justify-items: center; */
+    place-items: center;
+    
+}
+
+.color-square {
+    margin: 0;
+    padding: 0;
+    height: 40vmax;
+    width: 40vmax;
+    background-color: var(--color-begin);
+}
